@@ -1,1 +1,134 @@
+/* Start Body*/
+body {
+    background-color:white;
+    Color: #d70f64;
+    font-family:Helvetica, Arial, Helvetica, sans-serif
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body*/
+       
+/*Start Debug */
+.bg-pink {
+    background-color: #d70f64; 
+}
+.bg-white {
+    background-Color: white;
+}
 
+/*End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width:90%;
+}
+.container {
+        margin: 10px auto;
+        overflow: auto;
+        width:100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Anchor / hyperlink */
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color:#d70f64;
+    text-decoration: underline;
+
+}
+/* End Anchor / hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: white;
+    border-radius: 4px;e
+    box-shadow: white;
+}
+
+.menu-primer li {
+    border-right: 1px solid white; 
+    display: inline-block;
+    margin: 0 -4px:
+}
+
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: white;
+    color:#d70f64; 
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: white;
+    color: #d70f64;
+    text-decoration: none;
+}
+/* End Menu Primer */
+/* START hEADING */
+h1, h2, h3, h4, h5, h6, {
+ font-weight:400;
+ letter-spacing: 1px;
+}
+h1 {
+    Font-size: 28px
+}
+h2 {
+    Font-size: 24px
+}
+h3 {
+    Font-size: 18px
+}
+h4 {
+    Font-size: 16px
+}
+h5 {
+    Font-size: 14px
+}
+h6 {
+    Font-size: 13px
+}
+/* End Heading */
+
+
+/* Start Jumbrotron */
+.jumbrotron {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbrotron h1 {
+        font-size 20px;
+        padding: 0 20px: 
+}
+/* End Jumbrotron */
+
+/* Start Box */
+/* End Box */
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright  */
