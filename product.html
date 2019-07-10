@@ -15,86 +15,91 @@
     <!-- Start CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- End CSS -->
+
+    <!-- Start JS -->
+    <link rel="javascript" href="js/js.js">
+    <!-- End JS -->
 </head>
+<script src="JS/https://www.littlesnippets.net/snip1490"></script>
 <body>
     <!--Start Logo -->
-   <a href="index.html" title="logo molaan">
-        <img src="images/logo-molaan.png" alt= "Es Pisang Coklat"
-        height="30">
-   </a>
+    <div class="container logo">
+            <a href="index.html" title="logo molaan">
+            <img src="images/logo-molaan.png" alt= "Es Pisang Coklat"height="30">
+            </a>
+    </div>
     <!-- End Logo -->
 
     <!-- Start Menu Primer -->
-    <ul>
-        <li>
-            <a href="index.html" title="HOME">HOME</a>
-        </li>
-        <li>
-            <a href="about.html" title="ABOUT">ABOUT</a>
-        </li>
-        <li>
-            <a href="product.html" title="PRODUCT">PRODUCT</a>
-        </li>
-        <li>
-            <a href="contact us.html" title="CONTACT US">CONTACT US</a>
-        </li>
-        <li>
-            <a href="reseller.html" title="RESELLER">RESELLER</a>
-        </li>
+    <div class="container menu-primer">
+        <ul>
+            <li>
+                <a href="index.html" title="HOME" class="active">HOME</a>
+            </li>
+            <li>
+                <a href="product.html" title="PRODUCT">PRODUCT</a>
+            </li>
+            <li>
+                <a href="contact us.html" title="CONTACT US">CONTACT US</a>
+            </li>
+            <li>
+                <a href="reseller.html" title="RESELLER"class="active">RESELLER</a>
+            </li>
+            <li>
+                <Form>
+                <input class="search" type="text" placeholder="pencarian" required>
+                <input class="button" type="button" value=pencarian>
+                </Form>
+            </Form>
 </ul>
-
+</div>
 <!--End Menu Primer -->
 
+ <!--Start Pencarian -->
+ 
+ <!--End Pencarian -->
+
 <!--Start Jumbrotron -->
-<div class="kapital"></div>
-<h1>Product Molaan</h1>
-<a href="index.html" title="Produk molaan">
-    <img src="images/Banana.jpg" alt= "Es Pisang Coklat"
-    height="400">
-<h3>Molaan menyediakan Es Pisang Coklat</h3>
+<div class="container jumbrotron">
+    <h1>Product Molaan</h1>
+</div>
 <!--End Jumbrotron -->
 
-<!-- Start Menu Sekunder -->
-<h4>Molaan</h4>
-<p>Molaan menyediakan Es Pisang Coklat </p>
-<p>Email:<a href="malto: molaangroup@gmail.com" title="molaangroup@gmail.com">molaangroup@gmail.com</a></p>
-
-    <h4>Menu</h4>
+<!-- Start Product -->
+<div class="main-home-two">
+        <div class="box-heading">
+    <h4>PRODUCT</h4>
     <ul>
-        <li>
-            <a href="index.html" title="HOME">HOME</a>
-        </li>
-        <li>
-            <a href="about.html" title="ABOUT">ABOUT</a>
-        </li>
-        <li>
-            <a href="product.html" title="PRODUCT">PRODUCT</a>
-        </li>
-        <li>
-            <a href="artikel.html" title="RESELLER">RESELLER</a>
-        </li>
-        <li>
-            <a href="contact us.html" title="CONTACT US">CONTACT US</a>
-        </li>
-
-    <h4>Media Sosial</h4>  
-    <ul>
-        <li>
-             <a href="https://facebook.com/" title="Facebook -Molaan">
-            <img src="images/logo-facebook.jpg" alt= "Logo Facebook">
-            </a>
-        </li>
-        <li>
-            <a href="https://instagram.com/" title="Instagram -Molaan">
-        <img src="images/logo-instagram.jpg" alt= "Logo Instagram">  
-        </a>
-        </li>
+        <li>ES PISANG COKLAT ORIGINAL</li>
+        <a href="index.html" title="Original molaan">
+            <img src="images/original.jpg" alt= "Original Es Pisang Coklat" width="200" height="200">
+        <li>ES PISANG COKLAT TOPPING</li>
+        <a href="index.html" title="Promo molaan">
+            <img src="images/topping.jpg" alt= "topping Es Pisang Coklat" width="200" height="250">
     </ul>
-    <!-- End Menu Sekunder -->
-    <!-- Start Copyright -->
-    <p>Copyright 2019. Molaangroup</p>
-    <!-- Start Copyright -->
+</div>
+<!-- End Product -->
 
-    
+<!-- Start Copyright -->
+        <div class="container copyright"></div>
+            <p>Copyright 2019. Molaangroup</p>
+            </div>
+<!-- End Copyright --> 
+
+<!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+62852-7896-6865", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+<!-- /WhatsHelp.io widget -->
 </body>
 </html>
